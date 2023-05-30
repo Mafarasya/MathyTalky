@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99EC58B2A1BBD92007C63C7 /* Nano_Challenge_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC58A2A1BBD92007C63C7 /* Nano_Challenge_2App.swift */; };
+		F99EC58D2A1BBD92007C63C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC58C2A1BBD92007C63C7 /* ContentView.swift */; };
+		F99EC58F2A1BBD93007C63C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99EC58E2A1BBD93007C63C7 /* Assets.xcassets */; };
+		F99EC5922A1BBD93007C63C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99EC5912A1BBD93007C63C7 /* Preview Assets.xcassets */; };
+		F99EC5992A1CA332007C63C7 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC5982A1CA332007C63C7 /* LevelView.swift */; };
+		F99EC59B2A1CA344007C63C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC59A2A1CA344007C63C7 /* HomeView.swift */; };
+		F99EC59D2A1CB5E8007C63C7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC59C2A1CB5E8007C63C7 /* GameView.swift */; };
+		F99EC5BD2A1DCAA7007C63C7 /* HowToPlayPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC5BC2A1DCAA7007C63C7 /* HowToPlayPopupView.swift */; };
+		F99EC5BF2A1DCCA9007C63C7 /* HowToPlayModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC5BE2A1DCCA9007C63C7 /* HowToPlayModal.swift */; };
+		F99EC5C42A1DD20E007C63C7 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99EC5C32A1DD20E007C63C7 /* AppModel.swift */; };
+		F9D50ADD2A1E217300CDCFEC /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D50ADC2A1E217300CDCFEC /* SpeechRecognizer.swift */; };
+		F9D50ADF2A1E21AD00CDCFEC /* SpeechText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D50ADE2A1E21AD00CDCFEC /* SpeechText.swift */; };
+		F9D50AE12A1F2E7E00CDCFEC /* PlayAgainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D50AE02A1F2E7E00CDCFEC /* PlayAgainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F99EC5872A1BBD92007C63C7 /* Nano Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99EC58A2A1BBD92007C63C7 /* Nano_Challenge_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nano_Challenge_2App.swift; sourceTree = "<group>"; };
+		F99EC58C2A1BBD92007C63C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F99EC58E2A1BBD93007C63C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99EC5912A1BBD93007C63C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F99EC5982A1CA332007C63C7 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		F99EC59A2A1CA344007C63C7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F99EC59C2A1CB5E8007C63C7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F99EC5BC2A1DCAA7007C63C7 /* HowToPlayPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayPopupView.swift; sourceTree = "<group>"; };
+		F99EC5BE2A1DCCA9007C63C7 /* HowToPlayModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayModal.swift; sourceTree = "<group>"; };
+		F99EC5C32A1DD20E007C63C7 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F9D50ADC2A1E217300CDCFEC /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		F9D50ADE2A1E21AD00CDCFEC /* SpeechText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechText.swift; sourceTree = "<group>"; };
+		F9D50AE02A1F2E7E00CDCFEC /* PlayAgainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAgainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99EC5842A1BBD92007C63C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99EC57E2A1BBD92007C63C7 = {
+			isa = PBXGroup;
+			children = (
+				F99EC5892A1BBD92007C63C7 /* Nano Challenge 2 */,
+				F99EC5882A1BBD92007C63C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99EC5882A1BBD92007C63C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99EC5872A1BBD92007C63C7 /* Nano Challenge 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99EC5892A1BBD92007C63C7 /* Nano Challenge 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F99EC58A2A1BBD92007C63C7 /* Nano_Challenge_2App.swift */,
+				F99EC5C22A1DD1D0007C63C7 /* Models */,
+				F9D50ADB2A1E1FFA00CDCFEC /* Views */,
+				F99EC58C2A1BBD92007C63C7 /* ContentView.swift */,
+				F99EC5BC2A1DCAA7007C63C7 /* HowToPlayPopupView.swift */,
+				F99EC5BE2A1DCCA9007C63C7 /* HowToPlayModal.swift */,
+				F99EC58E2A1BBD93007C63C7 /* Assets.xcassets */,
+				F99EC5902A1BBD93007C63C7 /* Preview Content */,
+			);
+			path = "Nano Challenge 2";
+			sourceTree = "<group>";
+		};
+		F99EC5902A1BBD93007C63C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F99EC5912A1BBD93007C63C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F99EC5C22A1DD1D0007C63C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F99EC5C32A1DD20E007C63C7 /* AppModel.swift */,
+				F9D50ADC2A1E217300CDCFEC /* SpeechRecognizer.swift */,
+				F9D50ADE2A1E21AD00CDCFEC /* SpeechText.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9D50ADB2A1E1FFA00CDCFEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F99EC5982A1CA332007C63C7 /* LevelView.swift */,
+				F99EC59C2A1CB5E8007C63C7 /* GameView.swift */,
+				F99EC59A2A1CA344007C63C7 /* HomeView.swift */,
+				F9D50AE02A1F2E7E00CDCFEC /* PlayAgainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99EC5862A1BBD92007C63C7 /* Nano Challenge 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99EC5952A1BBD93007C63C7 /* Build configuration list for PBXNativeTarget "Nano Challenge 2" */;
+			buildPhases = (
+				F99EC5832A1BBD92007C63C7 /* Sources */,
+				F99EC5842A1BBD92007C63C7 /* Frameworks */,
+				F99EC5852A1BBD92007C63C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nano Challenge 2";
+			productName = "Nano Challenge 2";
+			productReference = F99EC5872A1BBD92007C63C7 /* Nano Challenge 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99EC57F2A1BBD92007C63C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F99EC5862A1BBD92007C63C7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F99EC5822A1BBD92007C63C7 /* Build configuration list for PBXProject "Nano Challenge 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99EC57E2A1BBD92007C63C7;
+			productRefGroup = F99EC5882A1BBD92007C63C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99EC5862A1BBD92007C63C7 /* Nano Challenge 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99EC5852A1BBD92007C63C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99EC5922A1BBD93007C63C7 /* Preview Assets.xcassets in Resources */,
+				F99EC58F2A1BBD93007C63C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99EC5832A1BBD92007C63C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99EC58D2A1BBD92007C63C7 /* ContentView.swift in Sources */,
+				F99EC5BD2A1DCAA7007C63C7 /* HowToPlayPopupView.swift in Sources */,
+				F9D50ADD2A1E217300CDCFEC /* SpeechRecognizer.swift in Sources */,
+				F9D50AE12A1F2E7E00CDCFEC /* PlayAgainView.swift in Sources */,
+				F99EC5C42A1DD20E007C63C7 /* AppModel.swift in Sources */,
+				F99EC59B2A1CA344007C63C7 /* HomeView.swift in Sources */,
+				F99EC5992A1CA332007C63C7 /* LevelView.swift in Sources */,
+				F9D50ADF2A1E21AD00CDCFEC /* SpeechText.swift in Sources */,
+				F99EC58B2A1BBD92007C63C7 /* Nano_Challenge_2App.swift in Sources */,
+				F99EC59D2A1CB5E8007C63C7 /* GameView.swift in Sources */,
+				F99EC5BF2A1DCCA9007C63C7 /* HowToPlayModal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F99EC5932A1BBD93007C63C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F99EC5942A1BBD93007C63C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99EC5962A1BBD93007C63C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano Challenge 2/Preview Content\"";
+				DEVELOPMENT_TEAM = S2JK9K6833;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mafarasya.Nano-Challenge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99EC5972A1BBD93007C63C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nano Challenge 2/Preview Content\"";
+				DEVELOPMENT_TEAM = S2JK9K6833;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mafarasya.Nano-Challenge-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99EC5822A1BBD92007C63C7 /* Build configuration list for PBXProject "Nano Challenge 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99EC5932A1BBD93007C63C7 /* Debug */,
+				F99EC5942A1BBD93007C63C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99EC5952A1BBD93007C63C7 /* Build configuration list for PBXNativeTarget "Nano Challenge 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99EC5962A1BBD93007C63C7 /* Debug */,
+				F99EC5972A1BBD93007C63C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99EC57F2A1BBD92007C63C7 /* Project object */;
+}
